@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "leg-01",
+      "name": "leg_01",
+      "category": "flight",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "leg-02",
+      "name": "leg_02",
+      "category": "train",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "leg-03",
+      "name": "leg_03",
+      "category": "hotel",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "leg-04",
+      "name": "leg_04",
+      "category": "transfer",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "leg-05",
+      "name": "leg_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "leg-06",
+      "name": "leg_06",
+      "category": "train",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "leg-07",
+      "name": "leg_07",
+      "category": "hotel",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "leg-08",
+      "name": "leg_08",
+      "category": "transfer",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "leg-09",
+      "name": "leg_09",
+      "category": "flight",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "leg-10",
+      "name": "leg_10",
+      "category": "train",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "leg-11",
+      "name": "leg_11",
+      "category": "hotel",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "leg-12",
+      "name": "leg_12",
+      "category": "transfer",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "leg-12",
+    "issue_count": 1
+  }
+}

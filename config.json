@@ -1,0 +1,13 @@
+{
+  "project_title": "Travel Itinerary Builder",
+  "goal": "Balance travel legs and avoid tight connections.",
+  "entity_name": "leg",
+  "amount_label": "duration_minutes",
+  "score_label": "risk_score",
+  "categories": [
+    "flight",
+    "train",
+    "hotel",
+    "transfer"
+  ]
+}
